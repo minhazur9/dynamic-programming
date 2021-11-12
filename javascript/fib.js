@@ -1,4 +1,4 @@
-// Get Finonacci Number
+// Calculate Finonacci Number
 
 const fib = (n, cache = {}) => {
   if (n in cache) return cache[n];
@@ -7,4 +7,4 @@ const fib = (n, cache = {}) => {
   return cache[n];
 };
 
-console.log(fib(14));
+console.log(fib(50));
