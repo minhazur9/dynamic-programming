@@ -14,4 +14,4 @@ const howSum = (targetSum, numbers, cache = {}) => {
   return cache[targetSum];
 };
 
-console.log(howSum(363, [7, 13]));
+console.log(howSum(7, [5, 4, 3, 7]));
