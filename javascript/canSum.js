@@ -6,7 +6,8 @@ const canSum = (targetSum, numbers, cache = {}) => {
   for (number of numbers) {
     if (canSum(targetSum - number, numbers, cache) === true) return true;
   }
-  return (cache[targetSum] = false);
+  cache[targetSum] = false;
+  return cache[targetSum];
 };
 
 console.log(canSum(7, [5, 3, 4, 7]));
