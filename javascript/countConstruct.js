@@ -20,6 +20,7 @@ console.log(
     "eee",
     "eeee",
     "eeeee",
-    "eeeeee"
+    "eeeeee",
+    "f"
   ])
 );
